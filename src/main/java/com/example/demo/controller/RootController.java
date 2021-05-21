@@ -24,4 +24,9 @@ public class RootController {
     public Integer add(@RequestParam Integer a, @RequestParam Integer b){
         return hogeSevice.add(a, b);
     }
+
+    @GetMapping("/yaml")
+    public void yaml(){
+        hogeSevice.yaml();
+    }
 }

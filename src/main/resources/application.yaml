@@ -1,1 +1,6 @@
-
+app:
+  hoge: "hoge"
+  piyos:
+    - "piyo"
+    - "piyoyo"
+    - "pipipi"
