@@ -6,15 +6,15 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-@ConfigurationProperties("app")
+@ConfigurationProperties(prefix="app")
 public class AppSetting {
     private String hoge;
-    private List<String> piyos;
+    private List<Piyos> piyos;
 
     public String getHoge() {
         return hoge;
     }
-    public List<String> getPiyos() {
+    public List<Piyos> getPiyos() {
         return piyos;
     }
 
@@ -22,7 +22,9 @@ public class AppSetting {
         this.hoge = hoge;
     }
 
-    public void setPiyos(List<String> piyos) {
+    public void setPiyos(List<Piyos> piyos) {
         this.piyos = piyos;
     }
+
+
 }

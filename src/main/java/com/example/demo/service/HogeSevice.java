@@ -27,6 +27,6 @@ public class HogeSevice {
 
     public void yaml(){
         System.out.println(appSetting.getHoge());
-        appSetting.getPiyos().forEach(System.out::println);
+        appSetting.getPiyos().forEach(p -> System.out.println("no:" + p.getPiyoNo() + "piyo:" + p.getPiyo()));
     }
 }

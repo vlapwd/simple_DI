@@ -1,6 +1,13 @@
 app:
   hoge: "hoge"
+#  piyos:
+#    - "piyo"
+#    - "piyo"
+#    - "piyo"
   piyos:
-    - "piyo"
-    - "piyoyo"
-    - "pipipi"
+  - piyo-no: 1
+    piyo: "piyo"
+  - piyo-no: 2
+    piyo: "piyoyo"
+  - piyo-no: 3
+    piyo: "pipipi"
